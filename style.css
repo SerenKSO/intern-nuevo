@@ -62,9 +62,27 @@ body{
 .banner{
 	top: -340px;
 	left: 1px;
-	background-color: #333;
+	background-color: #fff;
 	float: right;
 	position: relative;
 	width: 740px;
 	height: 400px;
+}
+
+.banner-bot{
+	top: -330px;
+	left: 1px;
+	background-color: #fff;
+	float: right;
+	position: relative;
+	width: 740px;
+	height: 400px;
+}
+.footer{
+	top: -200px;
+    position: relative;
+  	left: 1px;
+  	float: right;
+  	width: 100%;
+  	background-color: #444;
 }
