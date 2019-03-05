@@ -1,0 +1,330 @@
+body{
+	margin-top: 0;
+	padding-left: 180px;
+	padding-right: 180px;
+	background-image:url('bg.png');
+	background-repeat: repeat;
+	background-size: all;
+}
+.logo p {
+	text-align: left;
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: 23px;
+	color:	#87a8d5;
+	margin-left: 10px;
+}
+
+
+
+.top-bar p {
+	text-align: left;
+	color: #879aa5;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+
+
+.side-nav-bar #noline{
+
+	margin-right: 7px;
+	margin-left: 7px;
+	border: none;
+	padding:5px;
+	font-size: 10px;
+}
+.logo{
+	float:left;
+	font-size: 13px;
+	width: 180px;
+	height: 60px;
+	left: 80;
+	background-color: #fff;
+	font-family: arial;
+	font-weight: bold;
+	position: relative;
+
+
+}
+
+.top-bar{
+	top:0;
+	font-size: 13px;
+	width: 700px;
+	height: 35px;
+	background-color: #fff;
+	float: right;
+	font-family: arial;
+
+}
+
+.side-nav-bar{
+	margin:0px;
+	padding: 0px;
+	top: 35px;
+	left:-100px;
+	position: relative;
+	font-size: 13px;
+	width:180px;
+	height: 200px;
+	background-color: #fff;
+	float: left;
+	font-family: arial;
+}
+.side-bot-nav-bar{
+
+	top: 245px;
+	left:-280px;
+	position: relative;
+	font-size: 13px;
+	width: 180px;
+	height:200px;
+	background-color: #fff;
+	float: left;
+	font-family: arial;
+}
+
+.side-nav-bar p{
+	margin-right: 7px;
+	margin-left: 7px;
+	border-bottom: 1px solid #b5cbd6;
+	padding:5px;
+	font-size: 10px;	
+}
+
+.side-nav-bar a{
+	padding: 10px;
+	color: #879aa5;
+	text-decoration: none;
+	list-style-type:none;
+	font-weight: bold;
+}
+
+
+.side-bot-nav.bar img{
+/*	float: left;
+*/margin-left: 6px;
+
+}
+
+.side-bot-nav-bar h1{
+	font-size: 12px;
+	color: #879aa5;
+	margin-left: 6px;
+
+}
+
+
+
+
+
+.side-bot-nav-bar p{
+	font-size: 8px;
+	color: #879aa5;
+	text-decoration: none;
+	list-style-type:none;
+	font-weight: bold;
+	float: right;
+	
+
+}
+
+.side-bot-nav-bar a{
+	color: #879aa5;
+	text-decoration: none;
+	list-style-type:none;
+	font-weight: bold;
+}
+
+.banner-bot p{
+	font-size: 12px;
+	color: #879aa5;
+	padding-left: 15px;
+
+}
+.columns {
+    display: inline-block;
+    float: left;
+}
+.thumbnail {
+
+	margin-left: auto;
+	
+}
+
+.columns img{
+	padding-left:10px;
+	padding-right:8px;
+	margin-top: -8px;
+}
+
+.columns p{
+font-size: 9px;
+}
+
+.columns h1{
+	font-size: 10px;
+	padding-left: 13px;
+	
+
+}
+.columns a{
+	text-decoration: none;
+	color: #879aa5;
+}
+
+/*---------------BANNER-------------*/
+.banner{
+	top:-190px;
+	background-color:#4f6680;
+	float: right;
+	position: relative;
+	width: 700px;
+	height: 280px;
+}
+
+.banner-bot{
+	top: -180px;
+	background-color: #fff;
+	float: right;
+	position: relative;
+	width: 700px;
+	height: 250px;
+	overflow: hidden;
+
+	
+}
+.footer{
+	top: -170px;
+    position: relative;
+  	float: right;
+	width: 700px;
+	height: 30px;
+  	background-color: #fff;
+  	font-size: 12px;
+  	text-align: center;
+
+}
+
+
+
+.slider-inner{
+	width:690px;
+	height:275px;
+	position:relative;
+	overflow:hidden;
+	float:left;
+	padding:3px;
+	border:none;
+}
+
+.slider-inner img{
+	display:none;
+	width:690px;
+	height:275px;
+}
+
+.slider-inner img.active{
+	display:inline-block;
+}
+
+.prev,.next{
+	float:left;
+	margin-top:130px;
+	cursor: pointer;
+}
+
+.prev{
+	position:relative;
+	margin-right:-45px;
+	z-index:100;
+}
+
+.next{
+	position:relative;
+	margin-left:-30px;
+	z-index:100;
+}
+
+
+/*BUNDAN SONRASI ESKİ PROJEDEN*/
+
+/*.columns {
+	width: 25%;
+	float: left;
+	font-family: "Source Sans Pro";
+	color: #A5A5A5;
+	line-height: 24px;
+	
+	text-align: justify;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.thumbnail_align {
+	text-align: center;
+}
+
+.columns p {
+	padding-left: 10%;
+	padding-right: 10%;
+
+.columns h4 {
+	text-align: center;
+	color: #01B2D1;
+}
+.columns {
+	width: 100%;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0PX;
+	padding-right: 0PX;
+	padding-bottom: 0PX;
+	padding-left: 0PX;
+}
+.columns p {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.columns {
+	width: 100%;
+	margin-top: 6px;
+	margin-right: 0px;
+	margin-bottom: 6px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.columns p {
+	padding-left: 14px;
+	padding-right: 14px;
+}.columns {
+	width: 50%;
+	float: left;
+	padding-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+.container .columns p {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.thumbnail {
+	width: 200px;
+	border-radius: 250px;
+	height: 150px;
+	margin-left: auto;
+	margin-top: -20px;
+}*/
+
+/*ESKİ PROJE BİTİŞİ*/
+
